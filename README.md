@@ -54,22 +54,22 @@ from banco import Banco
 from pessoas import Cliente
 from contas import ContaCorrente, ContaPoupanca
 
-# Criando clientes
+Criando clientes
 cliente1 = Cliente("Alice", 25)
 cliente2 = Cliente("Bob", 30)
 
-# Criando contas
+Criando contas
 conta1 = ContaCorrente(1001, 56789, saldo=500, limite=200)
 conta2 = ContaPoupanca(1002, 98765, saldo=1000)
 
-# Associando contas aos clientes
+Associando contas aos clientes
 cliente1.conta = conta1
 cliente2.conta = conta2
 
-# Criando o banco e adicionando clientes e contas
+Criando o banco e adicionando clientes e contas
 banco = Banco([1001, 1002], [cliente1, cliente2], [conta1, conta2])
 
-# Autenticando cliente e realizando operações
+Autenticando cliente e realizando operações
 if banco.autenticar(cliente1, conta1):
     conta1.depositar(200)
     conta1.sacar(600)
