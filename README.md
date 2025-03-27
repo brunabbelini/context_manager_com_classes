@@ -46,9 +46,9 @@ python main.py
 
 
 ## 🎯 Exemplo de Uso
-from banco import Banco
-from pessoas import Cliente
-from contas import ContaCorrente, ContaPoupanca
+from banco import Banco \n
+from pessoas import Cliente \n
+from contas import ContaCorrente, ContaPoupanca \n
 
 ### Criando clientes
 cliente1 = Cliente("Alice", 25)
