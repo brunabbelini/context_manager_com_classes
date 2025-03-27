@@ -2,16 +2,13 @@
 
 Este é um **mini projeto de sistema bancário** desenvolvido para praticar **Programação Orientada a Objetos (POO)** em Python. O projeto implementa um banco simples onde clientes podem ter contas (corrente ou poupança) e realizar operações como **saques e depósitos**, seguindo boas práticas de encapsulamento e abstração.  
 
----
-
 ## 📌 Funcionalidades
+
 ✅ Criar clientes com nome e idade
 ✅ Criar contas bancárias (Corrente ou Poupança)
 ✅ Realizar saques e depósitos
 ✅ Aplicar limite extra em contas correntes
 ✅ Autenticar cliente e conta antes de permitir transações
-
----
 
 ## 🚀 Tecnologias e conceitos aplicados  
 
@@ -20,9 +17,8 @@ Este é um **mini projeto de sistema bancário** desenvolvido para praticar **Pr
 - **Classes abstratas e métodos abstratos**  
 - **Agregação entre classes (Cliente ↔ Conta ↔ Banco)**  
 - **Autenticação de clientes e contas no banco**  
-- **Uso de Context Manager para gerenciamento de recursos**  
-
----
+- **Uso de Context Manager para gerenciamento de recursos**
+  
 
 ## 📁 Estrutura do Projeto  
 📂 context_manager_com_classes 
