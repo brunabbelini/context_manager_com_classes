@@ -23,12 +23,13 @@ Este é um **mini projeto de sistema bancário** desenvolvido para praticar **Pr
   
 
 ## 📁 Estrutura do Projeto  
-📂 context_manager_com_classes 
-│── 📄 main.py # Arquivo principal para execução do sistema 
-│── 📄 banco.py # Classe Banco, responsável por autenticar clientes e contas 
-│── 📄 contas.py # Classes Conta, ContaPoupanca e ContaCorrente 
-│── 📄 pessoas.py # Classes Pessoa e Cliente 
-│── 📄 README.md # Documentação do projeto
+📂 context_manager_com_classes  
+│── 📄 main.py            # Arquivo principal para execução do sistema  
+│── 📄 banco.py           # Classe Banco, responsável por autenticar clientes e contas  
+│── 📄 contas.py          # Classes Conta, ContaPoupanca e ContaCorrente  
+│── 📄 pessoas.py         # Classes Pessoa e Cliente  
+│── 📄 README.md          # Documentação do projeto  
+
 
 
 ## 🛠 Como executar o projeto  
@@ -46,9 +47,9 @@ python main.py
 
 
 ## 🎯 Exemplo de Uso
-from banco import Banco \n
-from pessoas import Cliente \n
-from contas import ContaCorrente, ContaPoupanca \n
+from banco import Banco
+from pessoas import Cliente 
+from contas import ContaCorrente, ContaPoupanca 
 
 ### Criando clientes
 cliente1 = Cliente("Alice", 25)
